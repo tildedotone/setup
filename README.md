@@ -15,12 +15,12 @@ $ ssh-keygen -t ed25519
 
 1. Add your public key to the authorized_keys file:
 ```bash
-$ cat ~/.ssh/id_ed25519.pub >> authorized_keys
+$ cat ~/.ssh/id_ed25519.pub >> .ssh/authorized_keys
 ```
 
 1. Add, commit, and push your changes:
 ```bash
-$ git add authorized_keys
+$ git add .ssh/authorized_keys
 $ git commit -m "Added SSH keys for <your name>"
 $ git push origin master
 ```
