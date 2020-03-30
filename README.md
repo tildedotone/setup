@@ -5,7 +5,7 @@
 1. Clone the repository to your computer:
 ```bash
 $ git clone git@tildegit.org:<your name>/setup.git
-$ cd setup
+$ cd setup/.ssh/
 ```
 
 1. Create an SSH key pair (press enter for all prompts to use defaults):
