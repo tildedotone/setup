@@ -4,7 +4,7 @@
 
 1. Clone the repository to your computer:
 ```bash
-$ git clone git@tildegit.org:<your name>/setup.git
+$ git clone git@github.com:tildedotone/setup.git
 $ cd setup
 ```
 
